@@ -7,7 +7,7 @@ treeroot.title("GUI Tree")
 treeroot.geometry("450x550+50+30")
 
 tree_data=[]
-def addArray(): #ฟังก์ชั่น เพิ่ม Array
+def addArray(): #ฟังก์ชั่น เพิ่ม list
     global tree_data
     if t_entry.get() == '' or t_entry.get() == '':
         tkinter.messagebox.showerror( 'Error', 'ท่านยังไม่ได้ใส่ ข้อมูลที่ต้องการเพิ่ม' )
@@ -19,7 +19,7 @@ def addArray(): #ฟังก์ชั่น เพิ่ม Array
 def delete_All(): #ฟังก์ชั่นลบ ข้อมูล ทั้งหมด
         global tree_data
         tree_box.delete(0,END)
-        array_data = []
+        tree_data = []
 
 def delete_selected(): #ฟังก์ชั่นลบ ข้อมูล ที่เลือก
     global tree_data
