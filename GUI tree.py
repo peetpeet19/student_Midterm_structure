@@ -91,7 +91,7 @@ show_search2.place(x=370,y=370)
 #ปุ่ม คำนวณ binarytree
 Button(treeroot, text="สร้าง binarytree และ รายล่ะเอียดต่างๆ",font=1, command=def_binarytree,fg="red").place(x=70,y=420)
 
-#ปุ่ม เพื่อออกและบันทึกข้อมูลในกล่องรายการ
+#ปุ่ม เพื่อออกจากโปรแกรม
 Button(treeroot, text="  ออก   ",font=1, command=quit_save).place(x=160,y=480)
 
 #เริ่มการวนซ้ำของ GUI
